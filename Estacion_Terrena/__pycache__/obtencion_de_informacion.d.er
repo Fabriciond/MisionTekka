@@ -1,0 +1,7 @@
+##[pylyzer] failed /home/lm/Code/Horus/Mision_Teeka/Estacion_Terrena/obtencion_de_informacion.py 1700147307 376
+.serial = pyimport "serial"
+
+.json = pyimport "json"
+
+.BAUDS: {230400}
+.obtener_info_del_puerto_serial: (puerto_serial: Obj) -> NoneType

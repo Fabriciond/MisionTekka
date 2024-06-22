@@ -1,0 +1,10 @@
+##[pylyzer] failed /home/lm/Code/Horus/Mision_Teeka/Estacion_Terrena/input_info.py 1700147307 915
+.getpass = pyimport "getpass"
+
+.serial_ports = pyimport "(...)"
+
+.___v_desugar_1 = pyimport "datetime"
+.datetime: {datetime.DateTime}
+.obtener_info_database: () -> Tuple([Str, Failure])
+.obtener_puerto_serial: () -> Never
+.obtener_datos_sobre_lanzamiento: () -> Tuple([Str, Str, datetime.DateTime])

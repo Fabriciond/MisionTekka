@@ -1,0 +1,11 @@
+##[pylyzer] failed /home/lm/Code/Horus/Mision_Teeka/Estacion_Terrena/almacenamiento.py 1701292377 1805
+.mysql = pyimport "mysql"
+
+.Almacenamiento: ClassType
+.Almacenamiento.__call__: () -> .Almacenamiento
+.Almacenamiento.conector_database: {None}
+.Almacenamiento.cursor: {None}
+.Almacenamiento.guardar_datos_lanzamientos: |Type_6 <: Structural({.cursor = Type_41}), Type_41: Type|(this: Type_6, lugar: Obj, descripcion: Obj, hora: Obj) -> Never
+.Almacenamiento.guardar_datos_sensores_ili: |Type_12 <: Structural({.conector_database = Never})|(this: Type_12, tiempo: Obj, humedad: Obj, temperatura_dht: Obj, temperatura_bmp: Obj, co2: Obj, presion: Obj, altitud: Obj, indice_uv: Obj, id_lanzamiento: Obj) -> Never
+.Almacenamiento.guardar_datos_sensores_suawaka: |Type_24 <: Structural({.conector_database = Never})|(this: Type_24, tiempo: Obj, temperatura: Obj, presion: Obj, altitud: Obj, aceleracion_x: Obj, aceleracion_y: Obj, aceleracion_z: Obj, id_lanzamiento: Obj) -> Never
+
